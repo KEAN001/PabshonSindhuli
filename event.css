@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(250, 230, 206);
+}
+.h1{
+ text-align: center;
+   font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+   color: rgb(1, 63, 63);
+    text-decoration:underline 4px rgb(109, 108, 108);
+    margin-bottom: 80px;
+}
+
+    .nav ul{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    margin-right: 10px;
+    font-weight: 800;
+    font-family: "Roboto Slab", serif;
+}
+.nav li  { 
+    color: black;
+    font-size: 25px;
+    list-style: none;
+}
+.nav a{
+    color: black;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+.nav a:hover{
+    cursor: pointer;
+  color:aqua;
+}
+.nav  img{
+    border-radius: 50%;
+    margin-right: 695px;
+    display: flex;
+
+}
+*{
+    margin: 0;
+    padding: 0px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+}
+.p main{
+    height: 650px;
+    border-radius: 8px;
+    background-color:#f2f2f2;
+    color: #2F2F2F;
+    font-weight: 600;
+    text-align: center;
+    width: 1100px;
+}
+.p h2{
+ font-size: 40px;
+font-family: 'Manrope', sans-serif;
+}
+.p header{
+    font-family: 'Epunda Slab', sans-serif;
+    font-size: 50px;
+   text-decoration:underline 4px rgb(129, 125, 125);
+}
+.p h3{
+     font-size: 40px;
+font-family: 'Manrope', sans-serif;
+}
+.past h2{
+ font-size: 45px;
+font-family: 'Manrope', sans-serif;
+}
+.past {
+    display: flex;
+    justify-content: center;
+}
+.past img{
+    width: 600px;
+    height: 400px;
+}
+.past main{
+    height: 750px;
+    border-radius: 8px;
+    background-color:#f2f2f2;
+    color: #2F2F2F;
+    font-weight: 600;
+    font-family: 'Epunda Slab', sans-serif;
+    text-align: center;
+    width: 1100px;
+}
+
+.past h2{
+    margin-bottom: 0px;
+    font-size: 50px;
+    text-decoration:underline 4px rgb(109, 108, 108);
+    font-family: 'Epunda Slab', sans-serif;
+}
+.newpage a{
+     text-decoration: none;
+  height: 20px;
+  width: 10px;
+  background: #2c2c2c;
+  color: #ffffff;
+  padding: 6px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.newpage{
+    display: flex;
+    justify-content: center;
+}
+.past p{
+    font-size: 30px;
+     font-family: 'Epunda Slab', sans-serif;
+}
+@media (max-width : 600px){
+     .nav ul{
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav img{
+  margin-right: 10px;
+  }
+  .p main header{
+    font-size: 40px;
+  }
+  .p main h2{
+    font-size: 30px;
+  }
+.past main{
+    height: 750px;
+    border-radius: 8px;
+    background-color:#f2f2f2;
+    color: #2F2F2F;
+    font-weight: 600;
+    font-family: 'Epunda Slab', sans-serif;
+    text-align: center;
+    width: 1100px;
+}
+.past img{
+     width: 310px;
+height: 280px;
+margin-bottom: 50px;
+}
+.past h2{
+    font-size: 38px;
+}
+.newpage {
+   margin-top: 80px;
+}
+}
